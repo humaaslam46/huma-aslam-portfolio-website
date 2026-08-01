@@ -52,15 +52,26 @@
       </div>
       <div class="hero-visual">
         <div class="hero-glow"></div>
-        <div class="hero-photo-backcard"></div>
-        <div class="hero-photo-frame">
-          <img src="Huma.png" alt="Huma Aslam">
+        <div class="code-window">
+          <div class="code-window-bar">
+            <span class="wd wd-r"></span><span class="wd wd-y"></span><span class="wd wd-g"></span>
+            <span class="code-window-title">huma.js</span>
+          </div>
+          <div class="code-window-body">
+<pre><span class="cw-key">const</span> <span class="cw-var">engineer</span> = {
+  <span class="cw-prop">name</span>: <span class="cw-str">"Huma Aslam"</span>,
+  <span class="cw-prop">stack</span>: [<span class="cw-str">"ML"</span>, <span class="cw-str">"RAG"</span>, <span class="cw-str">"React"</span>, <span class="cw-str">"Node"</span>],
+  <span class="cw-prop">status</span>: <span class="cw-str">"shipping"</span>,
+  <span class="cw-prop">availableFor</span>: <span class="cw-str">"freelance & internships"</span>,
+};
+
+<span class="cw-key">function</span> <span class="cw-fn">buildSomething</span>() {
+  <span class="cw-key">return</span> engineer.stack
+    .map(<span class="cw-var">tool</span> <span class="cw-key">=></span> <span class="cw-var">tool</span> + <span class="cw-str">" + intent"</span>)
+    .join(<span class="cw-str">" -> "</span>);
+}<span class="cw-cursor">|</span></pre>
+          </div>
         </div>
-        <div class="status-chip"><span class="pulse-dot"></span>Open to freelance &amp; internships</div>
-        <div class="tag-chip floating-tag ft-1"><span class="dot"></span>Python</div>
-        <div class="tag-chip floating-tag ft-2"><span class="dot"></span>React.js</div>
-        <div class="tag-chip floating-tag ft-3"><span class="dot"></span>Scikit-learn</div>
-        <div class="tag-chip floating-tag ft-4"><span class="dot"></span>n8n</div>
       </div>
     </div>
     <div class="marquee-row">
@@ -92,6 +103,9 @@
   <section class="about" id="about">
     <div class="wrap">
       <div class="about-visual reveal">
+        <div class="about-photo-frame">
+          <img src="images/Huma.jpeg" alt="Huma Aslam">
+        </div>
         <div class="pull-quote">
           <span class="quote-mark">&ldquo;</span>
           Great technology sits at the intersection of smart engineering and thoughtful design.
@@ -432,10 +446,11 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="#hero" class="logo"><span class="brace">&lt;</span>Huma<span class="brace">/&gt;</span></a>
-        <p>Software Engineering student, ML/AI developer, and freelance builder based in Lahore, Pakistan.</p>
+        <p>Building intelligent software, one shipped project at a time.</p>
         <div class="footer-socials">
           <a href="https://github.com/humaaslam46" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
           <a href="https://www.linkedin.com/in/huma-aslam01/" target="_blank" rel="noopener" aria-label="LinkedIn">IN</a>
+          <a href="https://wa.me/+923206826891" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
           <a href="mailto:humaaslam755@gmail.com" aria-label="Email">@</a>
         </div>
       </div>
@@ -458,17 +473,17 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>// status</h4>
+        <h4>// reach me</h4>
         <ul>
-          <li>Lahore, Pakistan</li>
-          <li>BS SE — Final Year</li>
-          <li>Open to freelance</li>
+          <li><a href="mailto:humaaslam755@gmail.com">Email</a></li>
+          <li><a href="https://wa.me/+923206826891" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://www.linkedin.com/in/huma-aslam01/" target="_blank" rel="noopener">LinkedIn</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Huma Aslam. All rights reserved.</span>
-      <span>Built with plain HTML, CSS &amp; JS.</span>
+      <span>&copy; 2026 Huma Aslam. All rights reserved.</span>
+      <span>Built with HTML, CSS &amp; JavaScript.</span>
     </div>
   </div>
 </footer>
